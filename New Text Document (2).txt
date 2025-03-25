@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outlook-like Email Client</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Outlook</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Mail</a></li>
+                    <li><a href="#">Calendar</a></li>
+                    <li><a href="#">People</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+            <aside class="sidebar">
+                <ul>
+                    <li><a href="#">Inbox</a></li>
+                    <li><a href="#">Sent Items</a></li>
+                    <li><a href="#">Drafts</a></li>
+                    <li><a href="#">Trash</a></li>
+                </ul>
+            </aside>
+            <section class="email-list">
+                <h2>Inbox</h2>
+                <div class="email-item">
+                    <div class="email-info">
+                        <span class="email-sender">061baby1@gmail.com</span>
+                        <span class="email-date">Received: 2023-10-01</span>
+                    </div>
+                    <div class="email-subject">
+                        <strong>Subject:</strong> Test Email
+                    </div>
+                </div>
+                <!-- Add more email items here -->
+            </section>
+        </main>
+    </div>
+</body>
+</html>
